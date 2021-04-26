@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Salsa&display=swap');
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto'), url(https://fonts.googleapis.com/css2?family=Roboto&display=swap) format('ttf');
+}
+
+@font-face{
+    font-family: 'Salsa';
+    src: local('Salsa'), url(https://fonts.googleapis.com/css2?family=Salsa&display=swap) format('ttf');
+}
