@@ -24,3 +24,7 @@ Route::get('/', function(){
 Route::get('/login', function(){
     return view('layout.logForm.login');
 });
+
+Route::get('/cadastro', function(){
+    return view('layout.logForm.register');
+});
