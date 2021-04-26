@@ -9,7 +9,7 @@
 </head>
 <body class="h-screen max-h-full max-w-full">
     <div class="w-screen bg-green-400 py-3">
-        <a href="" class="flex items-center">
+        <a href="/" class="flex items-center w-2/12">
             <img src="{{ asset('images/parakeet_logo.svg') }}" alt="Parakeet" class="w-8 px-1">
             <p class="text-salsa text-red-400 text-4xl">Parakeet</p>
         </a>
