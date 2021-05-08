@@ -7,7 +7,7 @@
     <title>{{ config('app.name') }}</title>
     <link rel="stylesheet" href="{{ asset('css/main.css') }}">
 </head>
-<body class="h-screen max-h-full max-w-full">
+<body class="h-screen max-w-full overflow-hidden">
     <div class="w-screen bg-green-400 py-3">
         <a href="/" class="flex items-center w-2/12">
             <img src="{{ asset('images/parakeet_logo.svg') }}" alt="Parakeet" class="w-8 px-1">

@@ -24,8 +24,8 @@
                     <input type="password" name="registerConfirmPassword" id="registerConfirmPassword">
                 </div>
                 <div class="w-full flex justify-between">
-                <a href="/" class="bg-red-500 w-4/12 h-10 text-center rounded-full flex items-center justify-center text-white text-xl">Cancelar</a>
-                    <button type="submit" class="bg-green-300 w-4/12 h-10 text-center rounded-full flex items-center justify-center text-white text-xl">Cadastrar</button>
+                    <a href="/" class="bg-red-500 hover:bg-red-400 w-4/12 h-10 text-center rounded-full flex items-center justify-center text-white text-xl">Cancelar</a>
+                    <button type="submit" class="bg-green-300 hover:bg-green-400 w-4/12 h-10 text-center rounded-full flex items-center justify-center text-white text-xl">Cadastrar</button>
                 </div>
             </form>
         </div>

@@ -28,3 +28,7 @@ Route::get('/login', function(){
 Route::get('/cadastro', function(){
     return view('layout.logForm.register');
 });
+
+Route::get('/chats', function(){
+    return view('layout.mainMenu.chat.openChat');
+});

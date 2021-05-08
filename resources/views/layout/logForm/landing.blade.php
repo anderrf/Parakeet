@@ -7,8 +7,8 @@
             <p class="text-roboto text-xl">Conversas ágeis e sem limites!</p>
         </div>
         <div id="enter" class="w-full bg-red-100 flex flex-col gap-y-8 items-center justify-center text-roboto">
-            <a href="/login" class="bg-green-300 w-6/12 h-16 text-center rounded-full flex items-center justify-center text-white text-xl">Entrar</a>
-            <a href="/cadastro" class="bg-green-500 w-6/12 h-16 text-center rounded-full flex items-center justify-center text-white text-xl">Cadastre-se</a>
+            <a href="/login" class="bg-green-300 hover:bg-green-400 w-6/12 h-16 text-center rounded-full flex items-center justify-center text-white text-xl">Entrar</a>
+            <a href="/cadastro" class="bg-green-500 hover:bg-green-400 w-6/12 h-16 text-center rounded-full flex items-center justify-center text-white text-xl">Cadastre-se</a>
         </div>
     </div>
 @endsection
