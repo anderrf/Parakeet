@@ -36,3 +36,7 @@ Route::get('/chats', function(){
 Route::get('/perfil', function(){
     return view('layout.mainMenu.profile');
 });
+
+Route::get('/adicionar-contato', function(){
+    return view('layout.mainMenu.addContact');
+});

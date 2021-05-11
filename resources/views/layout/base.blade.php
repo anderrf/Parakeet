@@ -16,7 +16,7 @@
             <p class="text-salsa text-red-400 text-4xl">Parakeet</p>
         </a>
         <div class="w-3/12 h-full flex items-center gap-x-4">
-            <a href="/+" class="h-full w-10 h-10 flex justify-center items-center">
+            <a href="/adicionar-contato" class=" w-10 h-10 flex justify-center items-center rounded-full hover:bg-green-100">
                 <img src="{{ asset('images/plus_white.svg') }}" alt="" class="w-6">
             </a>
             <a href="/perfil" class="flex items-center gap-x-2 h-full w-5/6 hover:bg-green-100 px-1 rounded">
