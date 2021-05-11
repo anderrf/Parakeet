@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="w-full flex h-full">
-        <div class="w-3/12 bg-green-100 text-roboto overflow-y-scroll">
+        <div class="w-3/12 bg-green-100 text-roboto overflow-y-auto">
             <form action="" method="POST" class="py-2 px-auto flex items-center justify-center h-20">
                 <div class="rounded-full h-1/2 flex justify-center w-5/6">
                     <input type="text" name="searchContact" id="searchContact" class="rounded-l-lg h-full w-9/12 text-roboto px-1" placeholder="Pesquise contatos">

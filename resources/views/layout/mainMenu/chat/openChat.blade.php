@@ -1,7 +1,7 @@
 @extends('layout.mainMenu.mainRoom')
 
 @section('chats')
-    <div class="bg-white w-full h-4/5 overflow-y-scroll text-roboto p-2 flex flex-col gap-y-4">
+    <div class="bg-white w-full h-4/5 overflow-y-auto text-roboto p-2 flex flex-col gap-y-4">
         <div class="max-w-2xl bg-gray-100 p-2 rounded self-start">
             <p class="text-left">EAE</p>
         </div>

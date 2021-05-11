@@ -32,3 +32,7 @@ Route::get('/cadastro', function(){
 Route::get('/chats', function(){
     return view('layout.mainMenu.chat.openChat');
 });
+
+Route::get('/perfil', function(){
+    return view('layout.mainMenu.profile');
+});
