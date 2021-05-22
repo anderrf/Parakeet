@@ -21,21 +21,15 @@ Route::get('/', function(){
     return view('layout.logForm.landing');
 });
 
-Route::get('/login', function(){
-    return view('layout.logForm.login');
-});
+Route::get('/login', 'App\Http\Controllers\UserController@logUser')->name('logUser');
 
-Route::get('/cadastro', function(){
-    return view('layout.logForm.register');
-});
+Route::get('/cadastro', 'App\Http\Controllers\UserController@registerUser')->name('registerUser');
 
 Route::get('/chats', function(){
     return view('layout.mainMenu.chat.openChat');
 });
 
-Route::get('/perfil', function(){
-    return view('layout.mainMenu.profile');
-});
+Route::get('/perfil', 'App\Http\Controllers\UserController@viewProfile')->name('viewProfile');
 
 Route::get('/adicionar-contato', function(){
     return view('layout.mainMenu.addContact');
