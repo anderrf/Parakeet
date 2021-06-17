@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="{{ asset('css/main.css') }}">
     @yield('references')
 </head>
-<body class="h-screen max-w-full overflow-hidden">
+<body class="h-screen max-w-full overflow-hidden overflow-y-auto">
     <div class="w-screen bg-green-400 p-1 flex justify-between items-center h-20">
         <a href="/" class="flex items-center w-2/12">
             <img src="{{ asset('images/parakeet_logo.svg') }}" alt="Parakeet" class="w-8 px-1">
@@ -17,7 +17,10 @@
         </a>
         <div class="w-3/12 h-full flex items-center gap-x-4">
             <a href="/adicionar-contato" class=" w-10 h-10 flex justify-center items-center rounded-full hover:bg-green-100">
-                <img src="{{ asset('images/plus_white.svg') }}" alt="" class="w-6">
+                <img src="{{ asset('images/add_person_white.svg') }}" alt="" class="w-6 m-auto">
+            </a>
+            <a href="/adicionar-grupo" class=" w-10 h-10 flex justify-center items-center rounded-full hover:bg-green-100">
+                <img src="{{ asset('images/add_group_white.svg') }}" alt="" class="w-6 m-auto">
             </a>
             <a href="/perfil" class="flex items-center gap-x-2 h-full w-5/6 hover:bg-green-100 px-1 rounded">
                 <img src="{{ asset('images/parakeet_logo.svg') }}" alt="" class="bg-white rounded-full w-10 h-10">

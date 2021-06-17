@@ -34,3 +34,7 @@ Route::get('/perfil', 'App\Http\Controllers\UserController@viewProfile')->name('
 Route::get('/adicionar-contato', function(){
     return view('layout.mainMenu.addContact');
 });
+
+Route::get('/adicionar-grupo', function(){
+    return view('layout.mainMenu.addGroup');
+});

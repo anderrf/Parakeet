@@ -40,4 +40,6 @@ btnEmailSearch.addEventListener("click", setEmail);
 btnIdSearch.addEventListener("click", setId);
 
 //On page load, sets form for e-mail
-setEmail();
+window.addEventListener("load", function(){
+    setEmail();
+});
